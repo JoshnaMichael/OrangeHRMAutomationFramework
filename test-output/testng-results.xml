@@ -1,82 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-21T14:24:03 IST" name="OrangeHRM Test Suite" finished-at="2026-05-21T14:25:23 IST" duration-ms="80058">
+  <suite started-at="2026-05-22T12:06:20 IST" name="OrangeHRM Test Suite" finished-at="2026-05-22T12:08:00 IST" duration-ms="99505">
     <groups>
     </groups>
-    <test started-at="2026-05-21T14:24:03 IST" name="Dashboard Tests" finished-at="2026-05-21T14:25:11 IST" duration-ms="68138">
+    <test started-at="2026-05-22T12:06:20 IST" name="Dashboard Tests" finished-at="2026-05-22T12:06:57 IST" duration-ms="37193">
       <class name="com.orangehrm.tests.DashboardTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.DashboardTest@2aceadd4]" started-at="2026-05-21T14:24:03 IST" name="setUp" finished-at="2026-05-21T14:24:17 IST" duration-ms="14318" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.DashboardTest@752325ad]" started-at="2026-05-22T12:06:21 IST" name="setUp" finished-at="2026-05-22T12:06:31 IST" duration-ms="10553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyDashboardTitle()[pri:1, instance:com.orangehrm.tests.DashboardTest@2aceadd4]" started-at="2026-05-21T14:24:17 IST" name="verifyDashboardTitle" description="Verify dashboard title after login" finished-at="2026-05-21T14:24:30 IST" duration-ms="12470" status="PASS">
+        <test-method signature="verifyDashboardTitle()[pri:1, instance:com.orangehrm.tests.DashboardTest@752325ad]" started-at="2026-05-22T12:06:31 IST" name="verifyDashboardTitle" description="Verify dashboard title after login" finished-at="2026-05-22T12:06:33 IST" duration-ms="2055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDashboardTitle -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.DashboardTest@2aceadd4]" started-at="2026-05-21T14:24:30 IST" name="tearDown" finished-at="2026-05-21T14:24:30 IST" duration-ms="204" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.DashboardTest@752325ad]" started-at="2026-05-22T12:06:33 IST" name="tearDown" finished-at="2026-05-22T12:06:33 IST" duration-ms="158" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyDashboardTitle status=SUCCESS method=DashboardTest.verifyDashboardTitle()[pri:1, instance:com.orangehrm.tests.DashboardTest@2aceadd4] output={null}]]]>
+                <![CDATA[[TestResult name=verifyDashboardTitle status=SUCCESS method=DashboardTest.verifyDashboardTitle()[pri:1, instance:com.orangehrm.tests.DashboardTest@752325ad] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.DashboardTest@2aceadd4]" started-at="2026-05-21T14:24:30 IST" name="setUp" finished-at="2026-05-21T14:24:37 IST" duration-ms="6826" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.DashboardTest@752325ad]" started-at="2026-05-22T12:06:33 IST" name="setUp" finished-at="2026-05-22T12:06:39 IST" duration-ms="5568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyWelcomeMessage()[pri:2, instance:com.orangehrm.tests.DashboardTest@2aceadd4]" started-at="2026-05-21T14:24:37 IST" name="verifyWelcomeMessage" description="Verify welcome message is displayed" finished-at="2026-05-21T14:24:44 IST" duration-ms="6678" status="PASS">
+        <test-method signature="verifyWelcomeMessage()[pri:2, instance:com.orangehrm.tests.DashboardTest@752325ad]" started-at="2026-05-22T12:06:39 IST" name="verifyWelcomeMessage" description="Verify welcome message is displayed" finished-at="2026-05-22T12:06:41 IST" duration-ms="2056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWelcomeMessage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.DashboardTest@2aceadd4]" started-at="2026-05-21T14:24:44 IST" name="tearDown" finished-at="2026-05-21T14:24:44 IST" duration-ms="164" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.DashboardTest@752325ad]" started-at="2026-05-22T12:06:41 IST" name="tearDown" finished-at="2026-05-22T12:06:41 IST" duration-ms="148" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyWelcomeMessage status=SUCCESS method=DashboardTest.verifyWelcomeMessage()[pri:2, instance:com.orangehrm.tests.DashboardTest@2aceadd4] output={null}]]]>
+                <![CDATA[[TestResult name=verifyWelcomeMessage status=SUCCESS method=DashboardTest.verifyWelcomeMessage()[pri:2, instance:com.orangehrm.tests.DashboardTest@752325ad] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.DashboardTest@2aceadd4]" started-at="2026-05-21T14:24:44 IST" name="setUp" finished-at="2026-05-21T14:24:50 IST" duration-ms="6616" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.DashboardTest@752325ad]" started-at="2026-05-22T12:06:41 IST" name="setUp" finished-at="2026-05-22T12:06:46 IST" duration-ms="4846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyDashboardUrl()[pri:3, instance:com.orangehrm.tests.DashboardTest@2aceadd4]" started-at="2026-05-21T14:24:50 IST" name="verifyDashboardUrl" description="Verify dashboard URL after login" finished-at="2026-05-21T14:24:55 IST" duration-ms="4927" status="PASS">
+        <test-method signature="verifyDashboardUrl()[pri:3, instance:com.orangehrm.tests.DashboardTest@752325ad]" started-at="2026-05-22T12:06:46 IST" name="verifyDashboardUrl" description="Verify dashboard URL after login" finished-at="2026-05-22T12:06:47 IST" duration-ms="1457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDashboardUrl -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.DashboardTest@2aceadd4]" started-at="2026-05-21T14:24:55 IST" name="tearDown" finished-at="2026-05-21T14:24:56 IST" duration-ms="163" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.DashboardTest@752325ad]" started-at="2026-05-22T12:06:47 IST" name="tearDown" finished-at="2026-05-22T12:06:48 IST" duration-ms="149" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyDashboardUrl status=SUCCESS method=DashboardTest.verifyDashboardUrl()[pri:3, instance:com.orangehrm.tests.DashboardTest@2aceadd4] output={null}]]]>
+                <![CDATA[[TestResult name=verifyDashboardUrl status=SUCCESS method=DashboardTest.verifyDashboardUrl()[pri:3, instance:com.orangehrm.tests.DashboardTest@752325ad] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.DashboardTest@2aceadd4]" started-at="2026-05-21T14:24:56 IST" name="setUp" finished-at="2026-05-21T14:25:02 IST" duration-ms="6936" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.DashboardTest@752325ad]" started-at="2026-05-22T12:06:48 IST" name="setUp" finished-at="2026-05-22T12:06:53 IST" duration-ms="5841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyAdminMenuNavigation()[pri:4, instance:com.orangehrm.tests.DashboardTest@2aceadd4]" started-at="2026-05-21T14:25:02 IST" name="verifyAdminMenuNavigation" description="Verify Admin menu navigation" finished-at="2026-05-21T14:25:11 IST" duration-ms="8404" status="PASS">
+        <test-method signature="verifyAdminMenuNavigation()[pri:4, instance:com.orangehrm.tests.DashboardTest@752325ad]" started-at="2026-05-22T12:06:53 IST" name="verifyAdminMenuNavigation" description="Verify Admin menu navigation" finished-at="2026-05-22T12:06:57 IST" duration-ms="3876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAdminMenuNavigation -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.DashboardTest@2aceadd4]" started-at="2026-05-21T14:25:11 IST" name="tearDown" finished-at="2026-05-21T14:25:11 IST" duration-ms="167" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.DashboardTest@752325ad]" started-at="2026-05-22T12:06:57 IST" name="tearDown" finished-at="2026-05-22T12:06:57 IST" duration-ms="174" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAdminMenuNavigation status=SUCCESS method=DashboardTest.verifyAdminMenuNavigation()[pri:4, instance:com.orangehrm.tests.DashboardTest@2aceadd4] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAdminMenuNavigation status=SUCCESS method=DashboardTest.verifyAdminMenuNavigation()[pri:4, instance:com.orangehrm.tests.DashboardTest@752325ad] output={null}]]]>
               </value>
             </param>
           </params>
@@ -85,78 +85,78 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.orangehrm.tests.DashboardTest -->
     </test> <!-- Dashboard Tests -->
-    <test started-at="2026-05-21T14:24:03 IST" name="Login Tests" finished-at="2026-05-21T14:25:23 IST" duration-ms="80058">
+    <test started-at="2026-05-22T12:06:20 IST" name="Login Tests" finished-at="2026-05-22T12:07:24 IST" duration-ms="63325">
       <class name="com.orangehrm.tests.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.LoginTest@a1153bc]" started-at="2026-05-21T14:24:03 IST" name="setUp" finished-at="2026-05-21T14:24:18 IST" duration-ms="14539" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.LoginTest@55182842]" started-at="2026-05-22T12:06:21 IST" name="setUp" finished-at="2026-05-22T12:06:31 IST" duration-ms="10118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validLogin()[pri:1, instance:com.orangehrm.tests.LoginTest@a1153bc]" started-at="2026-05-21T14:24:18 IST" name="validLogin" description="Valid login with correct credentials" finished-at="2026-05-21T14:24:25 IST" duration-ms="7419" status="PASS">
+        <test-method signature="validLogin()[pri:1, instance:com.orangehrm.tests.LoginTest@55182842]" started-at="2026-05-22T12:06:31 IST" name="validLogin" description="Valid login with correct credentials" finished-at="2026-05-22T12:06:32 IST" duration-ms="1842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.LoginTest@a1153bc]" started-at="2026-05-21T14:24:25 IST" name="tearDown" finished-at="2026-05-21T14:24:26 IST" duration-ms="222" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.LoginTest@55182842]" started-at="2026-05-22T12:06:33 IST" name="tearDown" finished-at="2026-05-22T12:06:33 IST" duration-ms="161" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validLogin status=SUCCESS method=LoginTest.validLogin()[pri:1, instance:com.orangehrm.tests.LoginTest@a1153bc] output={null}]]]>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=LoginTest.validLogin()[pri:1, instance:com.orangehrm.tests.LoginTest@55182842] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.LoginTest@a1153bc]" started-at="2026-05-21T14:24:26 IST" name="setUp" finished-at="2026-05-21T14:24:32 IST" duration-ms="6448" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.LoginTest@55182842]" started-at="2026-05-22T12:06:33 IST" name="setUp" finished-at="2026-05-22T12:06:37 IST" duration-ms="4583" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="invalidLogin()[pri:2, instance:com.orangehrm.tests.LoginTest@a1153bc]" started-at="2026-05-21T14:24:32 IST" name="invalidLogin" description="Invalid login with wrong credentials" finished-at="2026-05-21T14:24:39 IST" duration-ms="6613" status="PASS">
+        <test-method signature="invalidLogin()[pri:2, instance:com.orangehrm.tests.LoginTest@55182842]" started-at="2026-05-22T12:06:37 IST" name="invalidLogin" description="Invalid login with wrong credentials" finished-at="2026-05-22T12:06:39 IST" duration-ms="1741" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.LoginTest@a1153bc]" started-at="2026-05-21T14:24:39 IST" name="tearDown" finished-at="2026-05-21T14:24:39 IST" duration-ms="182" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.LoginTest@55182842]" started-at="2026-05-22T12:06:39 IST" name="tearDown" finished-at="2026-05-22T12:06:39 IST" duration-ms="176" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=invalidLogin status=SUCCESS method=LoginTest.invalidLogin()[pri:2, instance:com.orangehrm.tests.LoginTest@a1153bc] output={null}]]]>
+                <![CDATA[[TestResult name=invalidLogin status=SUCCESS method=LoginTest.invalidLogin()[pri:2, instance:com.orangehrm.tests.LoginTest@55182842] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.LoginTest@a1153bc]" started-at="2026-05-21T14:24:39 IST" name="setUp" finished-at="2026-05-21T14:24:46 IST" duration-ms="6844" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.LoginTest@55182842]" started-at="2026-05-22T12:06:39 IST" name="setUp" finished-at="2026-05-22T12:06:45 IST" duration-ms="5119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="emptyLogin()[pri:3, instance:com.orangehrm.tests.LoginTest@a1153bc]" started-at="2026-05-21T14:24:46 IST" name="emptyLogin" description="Login with empty credentials" finished-at="2026-05-21T14:25:09 IST" duration-ms="22945" status="PASS">
+        <test-method signature="emptyLogin()[pri:3, instance:com.orangehrm.tests.LoginTest@55182842]" started-at="2026-05-22T12:06:45 IST" name="emptyLogin" description="Login with empty credentials" finished-at="2026-05-22T12:07:06 IST" duration-ms="21324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.LoginTest@a1153bc]" started-at="2026-05-21T14:25:09 IST" name="tearDown" finished-at="2026-05-21T14:25:09 IST" duration-ms="184" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.LoginTest@55182842]" started-at="2026-05-22T12:07:06 IST" name="tearDown" finished-at="2026-05-22T12:07:06 IST" duration-ms="209" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=emptyLogin status=SUCCESS method=LoginTest.emptyLogin()[pri:3, instance:com.orangehrm.tests.LoginTest@a1153bc] output={null}]]]>
+                <![CDATA[[TestResult name=emptyLogin status=SUCCESS method=LoginTest.emptyLogin()[pri:3, instance:com.orangehrm.tests.LoginTest@55182842] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.LoginTest@a1153bc]" started-at="2026-05-21T14:25:09 IST" name="setUp" finished-at="2026-05-21T14:25:16 IST" duration-ms="7007" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.LoginTest@55182842]" started-at="2026-05-22T12:07:06 IST" name="setUp" finished-at="2026-05-22T12:07:18 IST" duration-ms="11605" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logoutTest()[pri:4, instance:com.orangehrm.tests.LoginTest@a1153bc]" started-at="2026-05-21T14:25:16 IST" name="logoutTest" description="Logout after valid login" finished-at="2026-05-21T14:25:23 IST" duration-ms="6935" status="PASS">
+        <test-method signature="logoutTest()[pri:4, instance:com.orangehrm.tests.LoginTest@55182842]" started-at="2026-05-22T12:07:18 IST" name="logoutTest" description="Logout after valid login" finished-at="2026-05-22T12:07:23 IST" duration-ms="5701" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.LoginTest@a1153bc]" started-at="2026-05-21T14:25:23 IST" name="tearDown" finished-at="2026-05-21T14:25:23 IST" duration-ms="168" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.LoginTest@55182842]" started-at="2026-05-22T12:07:23 IST" name="tearDown" finished-at="2026-05-22T12:07:24 IST" duration-ms="170" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=logoutTest status=SUCCESS method=LoginTest.logoutTest()[pri:4, instance:com.orangehrm.tests.LoginTest@a1153bc] output={null}]]]>
+                <![CDATA[[TestResult name=logoutTest status=SUCCESS method=LoginTest.logoutTest()[pri:4, instance:com.orangehrm.tests.LoginTest@55182842] output={null}]]]>
               </value>
             </param>
           </params>
@@ -165,5 +165,173 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.orangehrm.tests.LoginTest -->
     </test> <!-- Login Tests -->
+    <test started-at="2026-05-22T12:06:57 IST" name="Data Driven Login Tests" finished-at="2026-05-22T12:08:00 IST" duration-ms="62286">
+      <class name="com.orangehrm.tests.DataDrivenLoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.DataDrivenLoginTest@8297b3a]" started-at="2026-05-22T12:06:58 IST" name="setUp" finished-at="2026-05-22T12:07:05 IST" duration-ms="6598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dataDrivenLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tests.DataDrivenLoginTest@8297b3a]" started-at="2026-05-22T12:07:05 IST" name="dataDrivenLogin" data-provider="loginData" finished-at="2026-05-22T12:07:06 IST" duration-ms="1760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDrivenLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.DataDrivenLoginTest@8297b3a]" started-at="2026-05-22T12:07:07 IST" name="tearDown" finished-at="2026-05-22T12:07:07 IST" duration-ms="179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dataDrivenLogin status=SUCCESS method=DataDrivenLoginTest.dataDrivenLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tests.DataDrivenLoginTest@8297b3a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.DataDrivenLoginTest@8297b3a]" started-at="2026-05-22T12:07:07 IST" name="setUp" finished-at="2026-05-22T12:07:20 IST" duration-ms="13531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dataDrivenLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tests.DataDrivenLoginTest@8297b3a]" started-at="2026-05-22T12:07:20 IST" name="dataDrivenLogin" data-provider="loginData" finished-at="2026-05-22T12:07:23 IST" duration-ms="2965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrongUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongPass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[InvalidLogin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDrivenLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.DataDrivenLoginTest@8297b3a]" started-at="2026-05-22T12:07:23 IST" name="tearDown" finished-at="2026-05-22T12:07:23 IST" duration-ms="161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dataDrivenLogin status=SUCCESS method=DataDrivenLoginTest.dataDrivenLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tests.DataDrivenLoginTest@8297b3a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.DataDrivenLoginTest@8297b3a]" started-at="2026-05-22T12:07:23 IST" name="setUp" finished-at="2026-05-22T12:07:30 IST" duration-ms="6719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dataDrivenLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tests.DataDrivenLoginTest@8297b3a]" started-at="2026-05-22T12:07:30 IST" name="dataDrivenLogin" data-provider="loginData" finished-at="2026-05-22T12:07:32 IST" duration-ms="2147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongPass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WrongPassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDrivenLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.DataDrivenLoginTest@8297b3a]" started-at="2026-05-22T12:07:32 IST" name="tearDown" finished-at="2026-05-22T12:07:32 IST" duration-ms="161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dataDrivenLogin status=SUCCESS method=DataDrivenLoginTest.dataDrivenLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tests.DataDrivenLoginTest@8297b3a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.DataDrivenLoginTest@8297b3a]" started-at="2026-05-22T12:07:32 IST" name="setUp" finished-at="2026-05-22T12:07:38 IST" duration-ms="5930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dataDrivenLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tests.DataDrivenLoginTest@8297b3a]" started-at="2026-05-22T12:07:38 IST" name="dataDrivenLogin" data-provider="loginData" finished-at="2026-05-22T12:07:59 IST" duration-ms="21085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EmptyLogin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDrivenLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.DataDrivenLoginTest@8297b3a]" started-at="2026-05-22T12:07:59 IST" name="tearDown" finished-at="2026-05-22T12:08:00 IST" duration-ms="337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dataDrivenLogin status=SUCCESS method=DataDrivenLoginTest.dataDrivenLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.tests.DataDrivenLoginTest@8297b3a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrm.tests.DataDrivenLoginTest -->
+    </test> <!-- Data Driven Login Tests -->
   </suite> <!-- OrangeHRM Test Suite -->
 </testng-results>

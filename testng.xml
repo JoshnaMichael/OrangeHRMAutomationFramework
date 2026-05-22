@@ -18,4 +18,10 @@
         </classes>
     </test>
 
+    <test name="Data Driven Login Tests">
+        <classes>
+            <class name="com.orangehrm.tests.DataDrivenLoginTest"/>
+        </classes>
+    </test>
+
 </suite>
