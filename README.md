@@ -19,6 +19,9 @@ Selenium Java Automation Framework built for OrangeHRM.
 - Extent HTML Reports auto generated
 - Externalized configuration via config.properties
 - Explicit waits using WebDriverWait
+- Data Driven Testing using Apache POI (Excel)
+- Parallel Execution using TestNG
+- ThreadLocal WebDriver for thread safety
 
 ## Test Cases
 ### Login Module (4 Tests)
@@ -33,8 +36,14 @@ Selenium Java Automation Framework built for OrangeHRM.
 - Verify Dashboard URL
 - Verify Admin Menu Navigation
 
-## How to Run
-1. Clone the repo
-2. Open in Eclipse as Maven project
-3. Right-click testng.xml → Run As → TestNG Suite
-4. View report at reports/ExtentReport.html
+### Data Driven Login Tests (4 Tests)
+- Valid Login from Excel
+- Invalid Login from Excel
+- Wrong Password from Excel
+- Empty Login from Excel
+
+### PIM Module Tests (4 Tests)
+- Verify Employee List Page
+- Verify Add Employee Page Loads
+- Add New Employee Successfully
+- Verify Cancel Button
