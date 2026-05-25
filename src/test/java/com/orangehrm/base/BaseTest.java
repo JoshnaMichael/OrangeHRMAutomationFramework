@@ -42,7 +42,8 @@ public class BaseTest {
         this.driver = driverThread.get();
 
         this.driver.manage().window().maximize();
-        this.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        // Increase implicit wait to 20 seconds to reduce timing issues in slower environments
+        this.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         this.driver.get(ConfigReader.getUrl());
     }
 

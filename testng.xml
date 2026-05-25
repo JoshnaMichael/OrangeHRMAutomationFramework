@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="OrangeHRM Test Suite" verbose="1" parallel="tests" thread-count="2">
+<suite name="OrangeHRM Test Suite" verbose="1" parallel="tests" thread-count="1">
 
     <listeners>
         <listener class-name="com.orangehrm.utils.ExtentReportListener"/>
@@ -21,6 +21,12 @@
     <test name="Data Driven Login Tests">
         <classes>
             <class name="com.orangehrm.tests.DataDrivenLoginTest"/>
+        </classes>
+    </test>
+
+    <test name="PIM Tests">
+        <classes>
+            <class name="com.orangehrm.tests.PIMTest"/>
         </classes>
     </test>
 

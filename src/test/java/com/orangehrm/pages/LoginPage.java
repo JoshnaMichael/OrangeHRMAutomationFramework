@@ -24,7 +24,9 @@ public class LoginPage {
     }
 
     public void enterUsername(String username) {
-        wait.until(ExpectedConditions.visibilityOfElementLocated(usernameField));
+        // Use an extended explicit wait (30 seconds) for the username field to be visible
+        WebDriverWait wait30 = new WebDriverWait(driver, Duration.ofSeconds(30));
+        wait30.until(ExpectedConditions.visibilityOfElementLocated(usernameField));
         driver.findElement(usernameField).clear();
         driver.findElement(usernameField).sendKeys(username);
     }
